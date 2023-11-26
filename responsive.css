@@ -1,7 +1,16 @@
+/* Responsive styles for tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Add your tablet styles here */
+}
+
+/* Responsive styles for larger screens (e.g., PCs) */
+@media only screen and (min-width: 1025px) {
+    /* Add your larger screen (PC) styles here */
+}
 
 
 /* Responsive styles for phones */
-@media only screen and (max-width: 600px) {
+@media  (max-width: 600px) {
     body{
         margin: 0;
         padding: 0;
@@ -397,12 +406,17 @@
     }
     
     .header-sec-image{
-        display: none;
+        
         position: absolute;
         left: 8px;
         top: 4500px;
         margin-top: -70px;
-        
+        width: 300px;
+    }
+
+    .header-sec-image img{
+        width: 400px;
+        margin-left: 2.5rem;
     }
     
     .img-text{
@@ -554,12 +568,59 @@
     
 }
 
-/* Responsive styles for tablets */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-    /* Add your tablet styles here */
-}
+@media only screen and (max-width:375px){
+    .image1{
+        margin:0;
+        margin-right: -10%;
+        z-index:-1;
+        margin-left: 12%;
+        background-position: center;
+        background-size:auto;
+        background-image: url(./images/millo-lin-Ep3NPU9Uhkw-unsplash\ 1.png);
+    }
 
-/* Responsive styles for larger screens (e.g., PCs) */
-@media only screen and (min-width: 1025px) {
-    /* Add your larger screen (PC) styles here */
+    .main-main-image{
+        display: flex;
+        justify-content: center;
+        margin-left:10% ;
+        margin-top:-79.5%;
+        z-index:-1;
+       
+    }
+
+    .searchbar {
+        display: flex; /* Use flexbox to align items horizontally */
+        align-items: center; /* Center items vertically */
+        background-color: rgb(204, 204, 204);
+        margin-top: 30px;
+        box-shadow: 2px 1px 2px 2px grey;
+        margin-left: 80px;
+        margin-right: -25px;
+        padding: 10px;
+    }
+    
+
+    .hamburger{
+        top: 2%;
+        right: -24%;
+
+    
+    }
+
+    .line-through{
+        margin-top: 200px;
+        background-color: black;
+        padding: 2px;
+        width: 420px;
+        margin-left: 30px;
+    }
+
+    .deal-list {
+        display: flex;
+        justify-content: space-evenly;
+        transition: transform 0.3s;
+        text-align: center;
+        margin-left:7rem;
+        gap: 20px;
+    }
 }
