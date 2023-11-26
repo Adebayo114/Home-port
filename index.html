@@ -5,12 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     <title>Lengthy Homes</title>
 </head>
 <body>
+    <menu>
+        <i class=' close bx bx-x' style='color:#ffffff' ></i>
+        <div class="menu">
+            <a href="#vt"><div id="dts0" class="dts0">Home</div></a>
+            <a href=""><div id="dts1" class="dts0">About</div></a>
+            <a href=""><div id="dts2" class="dts0">Service</div></a>
+            <a href=""><div id="dts3"class="dts0">Portfolio</div></a>
+            <a href=""><div id="dts4" class="dts0">Blog</div></a>
+        </div>   
+    </menu>
     <div class="main">
         <div class="logo">
             <img src="./images/Group 10.png" width="200px" alt="">
+        </div>
+        <div class="hamburger">
+            <i class=' icon bx bx-menu'></i>
         </div>
         <div class="sub-main">
             <div class="nav">
@@ -27,13 +41,17 @@
                 Smart Living Style For Smart People
             </div>
         </div>
+
+        <div class="main-main-image">
             <div class="image1">
-                <img class="fi" src="./images/millo-lin-Ep3NPU9Uhkw-unsplash 1.png" width="380px" alt="">
+                <img class="fi" id="blue" src="./images/millo-lin-Ep3NPU9Uhkw-unsplash 1.png" width="380px" alt="">
             </div>
 
             <div class="second-image">
                 <img class="si" src="./images/pexels-rosana-solis-3718434.jpg" width="300px" alt="">
             </div>
+        </div>
+
         
             <div class="searchbar">
                 <img class="logo2" src="./images/home 1.png" width="25px" alt="">
@@ -98,7 +116,7 @@
         </div>
 
         <div class="types">
-            <h3>Various Types Of Properties</h3>
+            <h3 id="vt">Various Types Of Properties</h3>
         </div>
 
         <div class="prop-diff">
@@ -237,7 +255,7 @@
                     </div>
                 </div>
 
-                <div class="footer-head-text-main">
+                <div id="sfw" class="footer-head-text-main">
                     Support
                     <div class="footer-head-text-main1">
                         <div class="footer-head-text-main-kids">Contact Us</div>

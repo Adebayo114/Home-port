@@ -6,7 +6,8 @@
         margin: 0;
         padding: 0;
     }
-/*     
+
+    
     .sub-main{
         background-color: grey;
         margin-left:380px ;
@@ -16,8 +17,8 @@
         padding: 15px;
         border: 2px solid black;
         margin-top:-195px;
-        
-    } */
+        display: none;
+    } 
     
     /* .dropdown{
         display: flex;
@@ -27,7 +28,7 @@
         display:none;
       
     
-    }
+    } 
     
     a{
         text-decoration: none;
@@ -38,11 +39,40 @@
         color: white;
     }
     
+    menu i{
+        position: absolute;
+        right: 10%;
+        font-size: 1.5rem;
+        top: 2%;
+    }
+
+
+    
     .logo{
         margin-left: 160px;
-        
+        margin-bottom: -150px;
     }
     
+    .hamburger{
+        display: block;
+        position: absolute;
+        right: -9%;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: grey;
+        top: 1%;
+       
+    }
+
+    .hamburger i{
+        font-size: 1.9rem;
+        color: white;
+        margin-top: 16%;
+        margin-left: 0.4rem;
+        
+    }
+
     .logo-text{
         font-size: 30px;
         margin-top: 80px;
@@ -61,19 +91,38 @@
         margin-right:00px ;
     }
     
+    .main-main-image{
+        display: flex;
+        justify-content: center;
+        margin-left:10% ;
+        margin-top:-59.5%;
+        z-index:-1;
+       
+    }
+    .image1{
+    margin:0;
+    margin-right: -10%;
+    z-index:-1;
+    margin-left: -2%;
+    background-position: center;
+    background-size:auto;
+    background-image: url(./images/millo-lin-Ep3NPU9Uhkw-unsplash\ 1.png);
+    }
+
+    #blue{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
     .fi{
-        
-        position: absolute;
-        left: -34px;
-        top:-17px;
+
+        margin-left: 0px;
         border:none;
         border-radius: 10px;
         z-index:-10;
-        width: 600px;
-    }
-    .image1{
-        border-radius: 10px;
-        z-index:-10px;
+        width: 480px;
     }
     .si{
         display: none;
@@ -91,7 +140,7 @@
         display: flex; /* Use flexbox to align items horizontally */
         align-items: center; /* Center items vertically */
         background-color: rgb(204, 204, 204);
-        margin-top: 200px;
+        margin-top: 30px;
         box-shadow: 2px 1px 2px 2px grey;
         margin-left: 80px;
         margin-right: 0px;
@@ -132,50 +181,13 @@
         cursor: pointer;
         color: white;
     }
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     .text3{
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-style: italic;
         color: orangered;
         text-align: center;
-        margin-left: 10px;
+        margin-left: 80px;
     }
     
     .logo-text3{
@@ -196,7 +208,7 @@
     .text4{
         text-align: center;
         font-size: 50px;
-        margin-left: 27px;
+        margin-left: 5rem;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .dts {
@@ -204,9 +216,10 @@
         justify-content: space-evenly;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 30px;
-        margin-left: 30px;
+        margin-left: 5rem;
         text-align: center;
         padding: 0;
+        gap: 30px;
         transition: transform 0.2s, color 0.2s;
     }
     
@@ -266,7 +279,7 @@
         justify-content: space-evenly;
         transition: transform 0.3s;
         text-align: center;
-        margin-left:30px;
+        margin-left:5rem;
         gap: 20px;
     }
     
@@ -282,7 +295,7 @@
     .deal-pics{
         display:block;
         margin-top: 50px;
-        margin-left:90px ;
+        margin-left:6rem ;
         padding: 10px;
         padding-left: -50px;
         gap: 30px;
@@ -294,9 +307,8 @@
         margin-bottom:20px;
     }
     .types{
-        text-align: center;
         margin-top: 50px;
-        margin-left: 30px;
+        margin-left: 5rem;
         text-align: center;
         text-decoration: underline;
         margin-bottom: 90px;
@@ -346,7 +358,7 @@
         margin-top: 60px;
         background-color: black;
         padding: 2px;
-        width: 450px;
+        width: 420px;
         margin-left: 30px;
     }
     
@@ -358,7 +370,7 @@
     .logo4-text{
         display: flex;
         gap: 40px;
-        margin-left: 50px;
+        margin-left: 70px;
         margin-top: -25px;
         transition: transform 0.3s; 
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -385,6 +397,7 @@
     }
     
     .header-sec-image{
+        display: none;
         position: absolute;
         left: 8px;
         top: 4500px;
@@ -404,7 +417,7 @@
     .header-sec-image2{
         margin-top: 500px;
         display: block;
-        margin-left: 80px;
+        margin-left: 6rem;
         justify-content: space-evenly;
     }
     
@@ -498,13 +511,20 @@
     
     .footer-head-text{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
-        margin-left: 60px;
+        margin-left: 8rem;
+        width: 250px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight:bolder;
         margin-top: 75px;
+        gap: 20px;
     }
     
+    #sfw{
+        text-align: center;
+    }
+
     .footer-head-text-main-kids{
         font-weight: lighter;
         transition: transform 0.3s ease-in-out;
@@ -528,6 +548,7 @@
     .copyright{
         text-align: center;
         margin-top: 60px;
+        margin-left: 5rem;
     }
     
     
