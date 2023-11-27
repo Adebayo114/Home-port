@@ -677,4 +677,12 @@
             text-decoration: underline;
             margin-bottom: 90px;
     }
+
+    .header-sec-image{
+        position: absolute;
+        left: 8px;
+        top: 4500px;
+        margin-top: -10px;
+        width: 300px;
+    }
 }
