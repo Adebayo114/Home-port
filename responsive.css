@@ -1,12 +1,16 @@
-/* Responsive styles for tablets */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-    /* Add your tablet styles here */
-}
 
 /* Responsive styles for larger screens (e.g., PCs) */
 @media only screen and (min-width: 1025px) {
     /* Add your larger screen (PC) styles here */
 }
+
+
+
+/* Responsive styles for tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+   
+}
+
 
 
 /* Responsive styles for phones */
